@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <link href="style6.css" rel="stylesheet">
+        <title> menu deroulant </title>
+    </head>
+
+    <body>
+        <h1>Menu deroulant responsive html et css utilisant le flexbox</h1>
+        <nav>
+            <div class="contener-nav">
+                <label for="mobile"> Afficher / Cacher le menu</label>
+                <input type="checkbox" id="mobile" role="button">  
+                <ul>
+                    <li class="deroulant"><a href="#">Cours complet</a>
+                        <ul class="sous">
+                            <li><a href="#">Cours HTML et CSS</a></li>
+                            <li><a href="#">Cours JavaScript</a></li>
+                            <li><a href="#">Cours PHP et mySQL</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="deroulant"><a href="#">Articles</a>
+                        <ul class="sous">
+                            <li><a href="#">CSS display</a></li>
+                            <li><a href="#">CSS position</a></li>
+                            <li><a href="#">CSS float</a></li>
+
+                        </ul>
+                    </li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">A propos</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="contener">
+            <p> Contenue du cours</p>
+        </div>
+    </body>
+</html>
